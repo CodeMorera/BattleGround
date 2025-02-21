@@ -1,3 +1,4 @@
+package thebattleground.enemies;
 
 public abstract class Enemy implements IEnemy {
     private int id;
@@ -15,7 +16,7 @@ public abstract class Enemy implements IEnemy {
     }
     @Override
     public void specialAttack(){
-        System.out.println("Enemy does not have a special attack");
+        System.out.println("enemies.Enemy does not have a special attack");
     }
 
     @Override
@@ -57,6 +58,6 @@ public abstract class Enemy implements IEnemy {
 
     @Override
     public void attack(){
-        System.out.println("Enemy attacks for " + attackDamage +" damage.");
+        System.out.println("enemies.Enemy attacks for " + attackDamage +" damage.");
     }
 }

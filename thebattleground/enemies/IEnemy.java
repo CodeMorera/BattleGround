@@ -1,3 +1,5 @@
+package thebattleground.enemies;
+
 public interface IEnemy {
     void talk();
     void attack();
